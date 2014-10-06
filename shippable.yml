@@ -10,6 +10,7 @@ after_success:
    - mvn clean cobertura:cobertura
    - mvn test
 
-parallelized_test : true
+#parallelized_test : true
 
 archive: true
+build_image: shippableimages/ubuntu1204_java:0.0.1
